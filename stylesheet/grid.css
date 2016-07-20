@@ -173,6 +173,10 @@ only screen and (max-width: 760px),
     border: none;
   }
 
+  img {
+    border: none;
+  }
+
   a img {
     max-width: 25%;
     padding-left: 37.5%;
