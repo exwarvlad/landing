@@ -130,6 +130,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  border: none;
+}
+
 @media
 only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {
@@ -166,10 +170,6 @@ only screen and (max-width: 760px),
 
   .optimal {
     width: 100%;
-    border: none;
-  }
-
-  img {
     border: none;
   }
 
