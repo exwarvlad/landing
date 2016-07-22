@@ -178,6 +178,10 @@ only screen and (max-width: 760px),
     padding-bottom: 30px;
   }
 
+  .main, .footer {
+    overflow: hidden;
+  }
+
 }
 
 .img_wm-fix-bot {
@@ -186,10 +190,6 @@ only screen and (max-width: 760px),
 
 .img_vqw-fix-bot {
   padding-bottom: 10px;
-}
-
-.img-go-go {
-  background-attachment: scroll, local;
 }
 
 .main, .footer {
