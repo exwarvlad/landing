@@ -7,6 +7,8 @@ body {
   background: #ccc;
   float: left;
   min-height: 335px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 
 }
 
@@ -15,13 +17,15 @@ body {
   width: 39%;
   float: right;
   min-height: 335px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 
 .clear {
   clear:both;
   font-size:0;
-  overflow:hidden; /* тройной презерватив для IE */
+  overflow:hidden;
 }
 
 .footer {
